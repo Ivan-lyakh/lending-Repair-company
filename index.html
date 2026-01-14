@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/nullstyle.css">
+  <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="css/style.css">
+  <title>Ремонт мебели</title>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="header__body">
+        <div class="header__body__top">
+          <span><img class="logo" src="images/logo.png" alt="#"></span>
+          <button class="burger" aria-label="Открыть меню" aria-expanded="false">
+            <span></span>
+          </button>
+          <nav class="burger__body" id="burger-menu">
+            <ul class="navigation-list">
+              <li><a href="#">О компании</a></li>
+              <li><a href="#">Рассчитать стоимость</a></li>
+              <li><a href="#">Галерея</a></li>
+              <li><a href="#">Отзывы</a></li>
+              <li><a href="#">Контакты</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="header__body__main">
+          <h1 class="header__title title32">
+            Ремонт и перетяжка <br> <span class="blue">мебели</span>
+          </h1>
+          <p class="header__subtitle parag12">
+            Восстановим прежний вид старой мебели, <br> сохраним ваш  бюджет
+          </p>
+          <div class="header__icon-block">
+            <h2 class="parag12"><span><img src="images/header-icon1.png" alt=""></span>Самые низкие цены</h2>
+            <h2 class="parag12"><span><img src="images/header-icon2.png" alt=""></span>Качественные материалы</h2>
+          </div>
+          <button class="header__button button"><a href="#quiz">Узнать стоимость</a></button>
+        </div>
+      </div>
+      <div class="divan__container">
+        <span class="dekstop-divan"><img class="divan" src="images/Divan-dekstop.png" alt="#"></span>
+      </div>
+      <div class="derevo__container">
+        <span class="dekstop-derevo"><img class="derevo" src="images/derevo-dekstop.png" alt="#"></span>
+      </div>
+    </div>
+  </header>
+  <section>
+    <div class="info">
+      <div class="container">
+        <div class="ifno__container">
+          <div class="info__left-column">
+            <h2 class="info__title title22">
+              Восстановим прежний вид старой мебели, сохраним до 70% вашего бюджета
+            </h2>
+            <div class="info__galery">
+              <div class="ifno__galery__section">
+                <div class="kvadrat"><img class="info__galery1" src="images/section-2icon1.png" alt="#"></div>
+                <h3 class="info__galery__text parag12">Собственная доставка мебели на производство</h3>
+              </div>
+              <div class="ifno__galery__section">
+                <div class="kvadrat"><img class="info__galery2" src="images/section-2icon2.png" alt="#"></div>
+                <h3 class="info__galery__text parag12">Гарантия на все наши работы 1 год</h3>
+              </div>
+              <div class="ifno__galery__section">
+                <div class="kvadrat"><img class="info__galery3" src="images/section-2icon3.png" alt="#"></div>
+                <h3 class="info__galery__text parag12">Материалы европейского качества</h3>
+              </div>
+              <div class="ifno__galery__section">
+                <div class="kvadrat"><img class="info__galery4" src="images/section-2icon4.png" alt="#"></div>
+                <h3 class="info__galery__text parag12">Работа по договору с фиксированной ценой и установленными сроками выполнения заказа</h3>
+              </div>
+              <div class="ifno__galery__section">
+                <div class="kvadrat"><img class="info__galery5" src="images/section-2icon5.png" alt="#"></div>
+                <h3 class="info__galery__text parag12">Реставрация и перетяжка мебели любой сложности</h3>
+              </div>
+              <div class="ifno__galery__section">
+                <div class="kvadrat"><img class="info__galery6" src="images/section-2icon6.png" alt="#"></div>
+                <h3 class="info__galery__text parag12">Минимальные среднерыночные цены</h3>
+              </div>
+            </div>
+          </div>
+          <div class="info__right-column">
+            <div class="how-price">
+              <h2 class="how-price__title title18">Хотите узнать стоимость?</h2>
+              <h3 class="how-price__text parag12">Оставьте заявку и мы перезвоним Вам через 5 минут</h3>
+              <input type="text" class="input name" placeholder="Ваше имя">
+              <input type="text" class="input tell" placeholder="Ваш номер телефона">
+              <button class="how-price__button button"><a href="#">Узнать стоимость</a></button>
+              <p class="parag12">Нажимая на кнопку, вы даете согласие на обработку <span class="blue"><a href="#" class="blue">персональных данных</a></span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="quiz">
+    <div class="container">
+      <h2 class="quiz__section-title title22">Рассчитайте предварительную стоимость реставрации Вашей мебели</h2>
+      <div class="quiz__card">
+        <img class="section-3absolute" src="images/section-3abolute.png" alt="#">
+        <div class="quiz__step quiz__step--active">
+          <div class="quiz__progress">
+            <span>Вопрос 1 из 4</span>
+            <div class="quiz__bar">
+              <div class="quiz__bar-fill"></div>
+            </div>
+          </div>
+
+      <h3 class="quiz__title">Выберите тип мебели</h3>
+
+      <div class="quiz__options">
+        <button type="button" class="quiz__option" data-step="1" data-type="sofa" data-price="2000">
+          <span class="quiz__option-text parag12">Диван</span>
+          <img src="images/quiz__option1.png" alt="Диван" class="quiz__option-img quiz__icon1">
+        </button>
+
+        <button type="button" class="quiz__option" data-step="1" data-type="armchair" data-price="1500">
+          <span class="quiz__option-text parag12">Кресло</span>
+          <img src="images/quiz__option2.png" alt="Кресло" class="quiz__option-img quiz__icon2">
+        </button>
+
+        <button type="button" class="quiz__option" data-step="1" data-type="bed" data-price="1800">
+          <span class="quiz__option-text parag12">Кровать</span>
+          <img src="images/quiz__option3.png" alt="Кровать" class="quiz__option-img quiz__icon3">
+        </button>
+
+        <button type="button" class="quiz__option" data-step="1" data-type="corner-sofa" data-price="2500">
+          <span class="quiz__option-text parag12">Угловой диван</span>
+          <img src="images/quiz__option4.png" alt="Угловой диван" class="quiz__option-img quiz__icon4">
+        </button>
+
+        <button type="button" class="quiz__option" data-step="1" data-type="chair" data-price="800">
+          <span class="quiz__option-text parag12">Стул</span>
+          <img src="images/quiz__option5.png" alt="Стул" class="quiz__option-img quiz__icon5">
+        </button>
+
+        <button type="button" class="quiz__option" data-step="1" data-type="other" data-price="1000">
+          <span class="quiz__option-text parag12">Другое</span>
+          <img src="images/quiz__option6.png" alt="Другое" class="quiz__option-img quiz__icon6">
+        </button>
+      </div>
+
+      <button class="quiz__next button">Продолжить</button>
+    </div>
+
+    <div class="quiz__step">
+  <div class="quiz__progress">
+    <span>Вопрос 2 из 4</span>
+    <div class="quiz__bar">
+      <div class="quiz__bar-fill" style="width:50%"></div>
+    </div>
+  </div>
+
+  <h3 class="quiz__title">Параметры мебели</h3>
+
+  <!-- Размер -->
+  <div class="quiz__group">
+    <p class="quiz__group-title">Размеры мебели:</p>
+
+    <div class="quiz__radios">
+      <button class="quiz__radio" data-size="small">
+        <span class="quiz__radio-dot"></span>
+        <div>
+          <span>Маленький</span>
+          <small>2 местный</small>
+        </div>
+      </button>
+
+      <button class="quiz__radio" data-size="medium">
+        <span class="quiz__radio-dot"></span>
+        <div>
+          <span>Средний</span>
+          <small>2-3 местный</small>
+        </div>
+      </button>
+
+      <button class="quiz__radio" data-size="large">
+        <span class="quiz__radio-dot"></span>
+        <div>
+          <span>Большой</span>
+          <small>4-5 местный</small>
+        </div>
+      </button>
+    </div>
+  </div>
+
+  <!-- Пышность -->
+  <div class="quiz__group">
+    <p class="quiz__group-title">Пышность мебели:</p>
+
+    <div class="quiz__radios">
+      <button class="quiz__radio" data-soft="no">
+        <span class="quiz__radio-dot"></span>
+        <span>Нет</span>
+      </button>
+
+      <button class="quiz__radio" data-soft="medium">
+        <span class="quiz__radio-dot"></span>
+        <span>Средняя</span>
+      </button>
+
+      <button class="quiz__radio" data-soft="high">
+        <span class="quiz__radio-dot"></span>
+        <span>Пышная</span>
+      </button>
+    </div>
+  </div>
+
+  <!-- Наполнитель -->
+  <div class="quiz__group">
+    <p class="quiz__group-title">Замена наполнителя:</p>
+
+    <div class="quiz__radios">
+      <button class="quiz__radio" data-fill="no">
+        <span class="quiz__radio-dot"></span>
+        <span>Не требуется</span>
+      </button>
+
+      <button class="quiz__radio" data-fill="partial">
+        <span class="quiz__radio-dot"></span>
+        <span>Частичное</span>
+      </button>
+
+      <button class="quiz__radio" data-fill="full">
+        <span class="quiz__radio-dot"></span>
+        <span>Полная</span>
+      </button>
+    </div>
+  </div>
+
+  <button class="quiz__next button" disabled>Продолжить</button>
+</div>
+
+<div class="quiz__step">
+  <div class="quiz__progress">
+    <span>Вопрос 3 из 4</span>
+    <div class="quiz__bar">
+      <div class="quiz__bar-fill" style="width:75%"></div>
+    </div>
+  </div>
+
+  <h3 class="quiz__title">Материалы мебели</h3>
+
+  <!-- Материал (dropdown) -->
+  <div class="quiz__group">
+    <p class="quiz__group-title">Материалы:</p>
+
+    <div class="quiz__select">
+      <button class="quiz__select-btn">
+        <span class="quiz__select-value">Классика</span>
+        <span class="quiz__select-arrow"></span>
+      </button>
+
+      <div class="quiz__select-list">
+        <button class="quiz__select-item" data-material="classic">Классика</button>
+        <button class="quiz__select-item" data-material="velour">Велюр</button>
+        <button class="quiz__select-item" data-material="eco-leather">Экокожа</button>
+        <button class="quiz__select-item" data-material="leather">Натуральная кожа</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Класс -->
+  <div class="quiz__group">
+    <p class="quiz__group-title">Класс:</p>
+
+    <div class="quiz__radios">
+      <button class="quiz__radio" data-class="low" data-price="800">
+        <span class="quiz__radio-dot"></span>
+        <div>
+          <span>Низкий</span>
+          <small>(до 800 грн/м)</small>
+        </div>
+      </button>
+
+      <button class="quiz__radio" data-class="middle" data-price="1000">
+        <span class="quiz__radio-dot"></span>
+        <div>
+          <span>Средний</span>
+          <small>(800–1000 грн/м)</small>
+        </div>
+      </button>
+
+      <button class="quiz__radio" data-class="lux" data-price="1200">
+        <span class="quiz__radio-dot"></span>
+        <div>
+          <span>Люкс</span>
+          <small>(от 1000 грн/м)</small>
+        </div>
+      </button>
+    </div>
+  </div>
+
+  <button class="quiz__next button" disabled>Продолжить</button>
+</div>
+
+<div class="quiz__step">
+  <div class="quiz__progress">
+    <span>Вопрос 4 из 4</span>
+    <div class="quiz__bar">
+      <div class="quiz__bar-fill" style="width:100%"></div>
+    </div>
+  </div>
+
+  <h3 class="quiz__title">Стоимость</h3>
+
+  <div class="quiz__prices">
+    <div class="quiz__price-item">
+      <span>Работа от:</span>
+      <strong id="workPrice">2000 грн.</strong>
+    </div>
+
+    <div class="quiz__price-item">
+      <span>Материалы от:</span>
+      <strong id="materialPrice">2000 грн.</strong>
+    </div>
+
+    <div class="quiz__price-item total">
+      <span>Итого от:</span>
+      <strong id="quizTotal">4000 грн.</strong>
+    </div>
+  </div>
+
+  <h3 class="quiz__form-title">Оформить заказ</h3>
+
+  <div class="quiz__form">
+    <input type="text" class="quiz__input" placeholder="Ваше имя">
+    <input type="tel" class="quiz__input" placeholder="Ваш номер телефона">
+  </div>
+
+  <button class="button quiz__submit" disabled>
+    Продолжить
+  </button>
+</div>
+
+  </div>
+    </div>
+  </section>
+  <section>
+    <div class="container">
+      <div class="number">
+        <div class="number__top">
+          <h2 class="title22">Мы в цифрах:</h2>
+        </div>
+        <div class="number__body">
+          <div class="number__card">
+            <div class="number__kvadrat"><img class="number__icon1" src="images/number__card1.png" alt="#"></div>
+            <h2 class="number__text parag12">11 лет непрерывной работы</h2>
+          </div>
+          <div class="number__card">
+            <div class="number__kvadrat"><img class="number__icon2" src="images/number__card2.png" alt="#"></div>
+            <h2 class="number__text parag12">Мастера с опытом более 5 лет</h2>
+          </div>
+          <div class="number__card">
+            <div class="number__kvadrat"><img class="number__icon3" src="images/number__card3.png" alt="#"></div>
+            <h2 class="number__text parag12">Три производственных цеха общей площадью 400 м2</h2>
+          </div>
+          <div class="number__card">
+            <div class="number__kvadrat"><img class="number__icon4" src="images/number__card4.png" alt="#"></div>
+            <h2 class="number__text parag12">6 дней - средний срок выполнения заказа</h2>
+          </div>
+          <div class="number__card">
+            <div class="number__kvadrat"><img class="number__icon5" src="images/number__card5.png" alt="#"></div>
+            <h2 class="number__text parag12">Более 5000 выполненных заказов</h2>
+          </div>
+          <div class="number__card">
+            <div class="number__kvadrat"><img class="number__icon6" src="images/number__card6.png" alt="#"></div>
+            <h2 class="number__text parag12">Экономия до 70% от стоимости новой мебели</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="container">
+      <div class="work">
+          <div class="work__top">
+            <h2 class="work__title title22">Наши работы говорят сами за себя</h2>
+          </div>
+          <div class="work__body">
+            <div class="work__card__top">
+              <button class="divan parag12 activeted">Диваны</button>
+              <button class="stul parag12">Стулья</button>
+              <button class="bed parag12">Кровати</button>
+              <button class="mebel parag12">Мебельная гарнитура</button>
+              <button class="all-work parag12">Все работы</button>
+            </div>
+            <div class="work__card__change divan__card activeted">
+              <div class="container__divan">
+                <div class="container__img"><img src="images/section-5divan1.png" alt="#"></div>
+              <div class="container__img"><img src="images/section-5divan2.png" alt="#"></div>
+              <div class="container__img imgnone"><img src="images/section-5divan3.png" alt="#"></div>
+              <div class="container__img imgnone"><img src="images/section-5divan4.png" alt="#"></div>
+              <div class="container__img imgnone"><img src="images/section-5divan5.png" alt="#"></div>
+              <div class="container__img imgnone"><img src="images/section-5divan6.png" alt="#"></div>
+              </div>
+              <button class="divan_check__more">Посмотреть работы</button>
+            </div>
+            <div class="work__card__change stul__card disabled">
+              <div class="container__stul">
+                <div class="container__img border flex">Тут могло бы быть фото стула</div>
+                <div class="container__img border flex">Тут могло бы быть фото стула</div>
+                <div class="container__img imgnone border">Тут могло бы быть фото стула</div>
+                <div class="container__img imgnone border">Тут могло бы быть фото стула</div>
+                <div class="container__img imgnone border">Тут могло бы быть фото стула</div>
+                <div class="container__img imgnone border">Тут могло бы быть фото стула</div>
+              </div>
+              <button class="divan_check__more">Посмотреть работы</button>
+            </div>
+            <div class="work__card__change bed__card disabled">
+              <div class="container__bed">
+                <div class="container__img border flex">Тут могло бы быть фото кровати</div>
+                <div class="container__img border flex">Тут могло бы быть фото кровати</div>
+                <div class="container__img imgnone border">Тут могло бы быть фото кровати</div>
+                <div class="container__img imgnone border">Тут могло бы быть фото кровати</div>
+                <div class="container__img imgnone border">Тут могло бы быть фото кровати</div>
+                <div class="container__img imgnone border">Тут могло бы быть фото кровати</div>
+              </div>
+              <button class="divan_check__more">Посмотреть работы</button>
+            </div>
+            <div class="work__card__change mebel-garniture__card disabled">
+              <div class="container__mebel">
+                <div class="container__img border flex">Тут могло бы быть фото мебели</div>
+                <div class="container__img border flex">Тут могло бы быть фото мебели</div>
+                <div class="container__img imgnone border">Тут могло бы быть фото мебели</div>
+                <div class="container__img imgnone border">Тут могло бы быть фото мебели</div>
+                <div class="container__img imgnone border">Тут могло бы быть фото мебели</div>
+                <div class="container__img imgnone border">Тут могло бы быть фото мебели</div>
+              </div>
+              <button class="divan_check__more">Посмотреть работы</button>
+            </div>
+            <div class="work__card__change all-work__card disabled">
+              <div class="container__all-work">
+                <div class="container__img"><img src="images/section-5divan1.png" alt="#"></div>
+                <div class="container__img"><img src="images/section-5divan2.png" alt="#"></div>
+                <div class="container__img imgnone border">Тут могло бы быть фото мебели</div>
+                <div class="container__img imgnone border">Тут могло бы быть фото мебели</div>
+                <div class="container__img imgnone border">Тут могло бы быть фото мебели</div>
+                <div class="container__img imgnone border">Тут могло бы быть фото мебели</div>
+              </div>
+              <button class="divan_check__more">Посмотреть работы</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="container">
+      <div class="services">
+        <div class="services__top">
+          <h2 class="services__title title22">
+            Наши услуги
+          </h2>
+        </div>
+        <div class="services__body">
+          <div class="services__body__column">
+            <div class="services__card zamena">
+            <div class="services__img__container images__first">
+              <img src="images/services-img1.png" alt="#">
+              <h2 class="services__card__title title18 title-zamena">Замена и восстановление наполнителя</h2>
+            </div>
+          </div> 
+          </div>
+          <div class="services__body__column">
+            <div class="services__card">
+            <div class="services__img__container images__too">
+              <img src="images/services-img2.png" alt="#">
+              <h2 class="services__card__title title18">Замена пружинного блока</h2>
+            </div>
+          </div>
+          <div class="services__card card-three">
+            <div class="services__img__container images__three">
+              <h2 class="services__card__title title18 title-three">Ремонтируем каркас</h2>
+              <img src="images/services-img3.png" alt="#">
+            </div>
+          </div>
+          </div>
+          <div class="services__body__column last-column">
+            <div class="services__card">
+            <div class="services__img__container images__foor">
+              <img src="images/services-img4.png" alt="#">
+              <h2 class="services__card__title title18">Замена и ремонт механизма</h2>
+            </div>
+          </div>
+          <div class="services__card">
+            <div class="services__img__container images__five">
+              <h2 class="services__card__title title18">Делаем замену обивки</h2>
+              <img src="images/services-img5.png" alt="#">
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="container">
+      <div class="change-form">
+        <div class="change-form__left-column">
+          <h2 class="change-form__title title22">
+          Хотите полностью изменить форму и дизайн вашей старой мебели?
+          </h2>
+          <h3 class="chamge-form__subtitle parag12">
+            Мы готовы это сделать по вашим рисункам, эскизам, или фотографиям.
+          </h3>
+          <div class="change-form__container__img">
+            <img src="images/section-8imges.png" alt="#">
+          </div>
+        </div>
+        <div class="change-form__right-column">
+          <div class="how-price">
+              <h2 class="how-price__title title18">Хотите узнать стоимость?</h2>
+              <h3 class="how-price__text parag12">Оставьте заявку и мы перезвоним Вам через 5 минут</h3>
+              <input type="text" class="input name" placeholder="Ваше имя">
+              <input type="text" class="input tell" placeholder="Ваш номер телефона">
+              <button class="how-price__button button"><a href="#">Узнать стоимость</a></button>
+              <p class="parag12">Нажимая на кнопку, вы даете согласие на обработку <span class="blue"><a href="#" class="blue">персональных данных</a></span></p>
+            </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+  <div class="container">
+    <div class="slider">
+
+      <h2 class="slider__title title22">
+        Наши материалы
+      </h2>
+
+      <!-- Swiper -->
+      <div class="slider__body swiper">
+
+        <div class="swiper-wrapper">
+
+          <div class="slider__card swiper-slide">
+            <div class="container__slider__img">
+              <img src="images/slider-icon1.png" alt="#">
+            </div>
+          </div>
+
+          <div class="slider__card swiper-slide">
+            <div class="container__slider__img">
+              <img src="images/slider-icon2.png" alt="#">
+            </div>
+          </div>
+
+          <div class="slider__card swiper-slide">
+            <div class="container__slider__img">
+              <img src="images/slider-icon3.png" alt="#">
+            </div>
+          </div>
+
+          <div class="slider__card swiper-slide">
+            <div class="container__slider__img">
+              <img src="images/slider-icon4.png" alt="#">
+            </div>
+          </div>
+
+          <div class="slider__card swiper-slide">
+            <div class="container__slider__img">
+              <img src="images/slider-icon5.png" alt="#">
+            </div>
+          </div>
+
+          <div class="slider__card swiper-slide">
+            <div class="container__slider__img">
+              <img src="images/slider-icon6.png" alt="#">
+            </div>
+          </div>
+
+          <div class="slider__card swiper-slide">
+            <div class="container__slider__img">
+              <img src="images/slider-icon7.png" alt="#">
+            </div>
+          </div>
+
+        </div>
+
+        <div class="slider__left swiper-button-prev">
+          
+        </div>
+        <div class="slider__right swiper-button-next"></div>
+
+      </div>
+    </div>
+  </div>
+  </section>
+  <section>
+    <div class="work-steps">
+      <div class="container">
+        <h2 class="work__title title22">Как мы работаем?</h2>
+        <div class="work__main">
+          <div class="work__main__container-img">
+            <img src="images/work__man.png" alt="#">
+          </div>
+          <div class="work__card work__first__card">
+            <div class="work__number">
+              <span class="blue">01</span>
+            </div>
+            <div class="work__kvadrat">
+              <div class="work__card1"><img src="images/work__card1.png" alt="#"></div>
+            </div>
+            <h3 class="work__card__text parag">Вызов дизайнера замерщика с образцами материалов</h3>
+          </div>
+          <div class="work__card ">
+            <div class="work__number">
+              <span class="blue">02</span>
+            </div>
+            <div class="work__kvadrat">
+              <div class="work__card2"><img src="images/work__card2.png" alt="#"></div>
+            </div>
+            <h3 class="work__card__text parag">Просчет стоимости и составление сметы</h3>
+          </div>
+          <div class="work__card ">
+            <div class="work__number">
+              <span class="blue">03</span>
+            </div>
+            <div class="work__kvadrat">
+              <div class="work__card3"><img src="images/work__card3.png" alt="#"></div>
+            </div>
+            <h3 class="work__card__text parag">Доставка мебели на производство</h3>
+          </div>
+          <div class="work__card ">
+            <div class="work__number">
+              <span class="blue">04</span>
+            </div>
+            <div class="work__kvadrat">
+              <div class="work__card4"><img src="images/work__card4.png" alt="#"></div>
+            </div>
+            <h3 class="work__card__text parag">Реставрация мебели</h3>
+          </div>
+          <div class="work__card ">
+            <div class="work__number">
+              <span class="blue">05</span>
+            </div>
+            <div class="work__kvadrat">
+              <div class="work__card5"><img src="images/work__card5.png" alt="#"></div>
+            </div>
+            <h3 class="work__card__text parag">Доставка новой мебели к Вам домой</h3>
+          </div>
+          <button class="work__main__button button"><a href="#">Вызвать замерщика</a></button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+  <div class="container">
+
+    <h2 class="new-slider__title title22">
+      Отзывы
+    </h2>
+    <div class="swiper new-slider">
+      <div class="swiper-wrapper">
+
+        <div class="swiper-slide">
+          <div class="container-for-otziv">
+            <img src="images/otziv1.png" alt="#">
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="container-for-otziv ">
+            <img src="images/otziv2.png" alt="#">
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="container-for-otziv border-for-container">
+            <h3>Тут мог бы быть отзыв</h3>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="container-for-otziv border-for-container">
+            <h3>Тут мог бы быть отзыв</h3>
+          </div>
+        </div>
+        <div class="swiper-slide">
+        <div class="container-for-otziv border-for-container">
+          <h3>Тут мог бы быть отзыв</h3>
+        </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="container-for-otziv border-for-container">
+            <h3>Тут мог бы быть отзыв</h3>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="swiper-button-prev new-slider__prev"></div>
+      <div class="swiper-button-next new-slider__next"></div>
+
+    </div>
+
+  </div>
+  </section>
+  <section>
+    <div class="container">
+      <div class="faq">
+        <h2 class="faq__title title22">FAQ</h2>
+        <div class="faq__body">
+          <div class="faq__first-column">
+            <div class="faq__card">
+            <details>
+              <summary><span>1</span>Забираете у меня мебель для ремонта обязательно?</summary>
+              <p>
+                Да, так как в домашних условиях провести профессиональный
+                ремонт и перетяжку мебели попросту не представляется возможным.
+              </p>
+            </details>
+          </div>
+            <div class="faq__card">
+              <details>
+                <summary><span>2</span>Какой срок выполнение заказа?</summary>
+                <p>
+                  Специалисты нашей компании стараются выполнить каждый заказ как можно быстрее. Однако, учитывая статистику заказов, средний срок выполнения одного проекта составляет 5-10 дней.
+                </p>
+              </details>
+            </div>
+            <div class="faq__card">
+              <details>
+                <summary><span>3</span>Какая цена на перетяжку мебели или создание ее нового дизайна?</summary>
+                <p>
+                  Стоимость зависит от типа мебели, её габаритов, сложности работ и выбранных материалов. Точная цена рассчитывается после осмотра изделия и согласования дизайна. Мы предлагаем прозрачный расчёт без скрытых доплат и подбираем решения под ваш бюджет.
+              </p>
+            </details>
+            </div>
+          </div>
+            <div class="faq__too-column">
+              <div class="faq__card">
+              <details>
+                <summary><span>4</span>Есть возможность заказать замену только наполнителя для мягкой мебели?</summary>
+                <p>
+                  Да, при необходимости мы можем заменить только наполнитель, сохранив существующую обивку. Это позволяет восстановить комфорт и форму мебели без полной перетяжки, значительно сократив стоимость работ.
+                </p>
+              </details>
+            </div>
+            <div class="faq__card">
+              <details>
+                <summary><span>5</span>Вы проводите замену обивки и наполнителя мебели, если материал мой?</summary>
+                <p>
+                  Да, мы можем выполнить работы с использованием материалов, предоставленных заказчиком. Перед началом работ мы проверяем их качество и соответствие требованиям, чтобы гарантировать долговечность и аккуратный результат.
+                </p>
+              </details>
+            </div>
+            <div class="faq__card">
+              <details>
+                <summary><span>6</span>Как производится оплата за заказ?</summary>
+                  <p>
+                    Каждый проект оформляется на основе оговоренного с заказчиком и подписанного двумя сторонами договора. За каждый заказ придется внести определенный процент предоплаты, остальная сумма оплачивается по принятию проекта заказчиком.
+                  </p>
+                </details>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="map">
+      <div class="container">
+        <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20477.94515049165!2d14.381017684936518!3d50.09109572890588!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470b951e6c24b7c3%3A0x2acf3c88af12259f!2z0J_RgNCw0LbRgdC60LjQuSDQk9GA0LDQtA!5e0!3m2!1sru!2scz!4v1768417967360!5m2!1sru!2scz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="map__body">
+          <div class="map__text">
+            <h2 class="map__title">Контакты</h2>
+            <div class="map__block"><span class="map-icon"><img src="images/map-icon1.png" alt=""></span><h4>+38 (093) 274-00-95</h4></div>
+            <div class="map__block"><span class="map-icon"><img src="images/map-icon2.png" alt=""></span><h4>г.Харьков, <br> ул.Приморская 2</h4></div>
+            <div class="map__block"><span class="map-icon"><img src="images/map-icon3.png" alt=""></span><h4>mail@gmail.com</h4></div>
+            <div class="map__bottom">
+              <h3 class="social-media">Соцсети</h3>
+              <div class="map__icon">
+                <a href="https://web.telegram.org"><img src="images/telegram.png" alt="#"></a>
+                <a href="https://www.viber.com/ru/"><img src="images/viber.png" alt="#"></a>
+              </div>
+            </div>
+          </div>
+          <div class="map__iframe">
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="container">
+      <div class="footer__body">
+        <div class="footer__icon">
+          <img src="images/logo.png" alt="#">
+        </div>
+        <div class="footer__text">
+          <h2>Политика конфиденциальности</h2>
+        </div>
+        <div class="footer__text">
+          <h2>Соглашение</h2>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+<script src="js/script-burger.js"></script>
+<script src="js/script-fakesubmit.js"></script>
+<script src="js/script-quiz.js"></script>
+<script src="js/scritp-work.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="js/script-slider.js"></script>
+</html>
