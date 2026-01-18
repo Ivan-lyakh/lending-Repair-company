@@ -4,7 +4,7 @@
 
 🔗 Демо
 
-👉 Посмотреть сайт - https://ivan-lyakh.github.io/lending-Repair-/?utm_source=chatgpt.com
+👉 Посмотреть сайт - https://ivan-lyakh.github.io/lending-Repair-company/
 
 📌 Функциональность
 
