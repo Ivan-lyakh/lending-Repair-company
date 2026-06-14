@@ -1,77 +1,93 @@
-🛠️ Лендинг «Ремонт и перетяжка мебели»
+# Furniture Repair Landing
 
-Адаптивный одностраничный сайт (landing page) для компании, предоставляющей услуги по ремонту и перетяжке мебели. Проект выполнен в рамках портфолио и демонстрирует навыки вёрстки, адаптивного дизайна и базовой JavaScript-логики.
+Furniture Repair Landing — это веб-приложение (landing page) для компании, предоставляющей услуги по ремонту и перетяжке мебели.
 
-🔗 Демо
+Проект демонстрирует навыки адаптивной вёрстки, построения пользовательского интерфейса и реализации базовой JavaScript-логики для интерактивных элементов.
 
-👉 Посмотреть сайт - https://ivan-lyakh.github.io/lending-Repair-company/
+## Возможности
 
-📌 Функциональность
+- Адаптивная вёрстка (desktop / tablet / mobile)
+- Калькулятор расчёта стоимости услуг
+- Формы обратной связи
+- Интерактивные элементы на JavaScript
+- FAQ-блок
+- Карта с расположением компании
+- Галерея работ и материалов
 
-Адаптивная вёрстка (desktop / tablet / mobile)
+## Технологии
 
-Калькулятор расчёта стоимости услуг
+- HTML5
+- CSS3
+- Flexbox
+- CSS Grid
+- Media Queries
+- Vanilla JavaScript (ES6)
+- GitHub Pages
 
-Формы обратной связи
-
-Интерактивные элементы на JavaScript
-
-FAQ-блок
-
-Карта с расположением компании
-
-Галерея работ и материалов
-
-🧩 Используемые технологии
-
-HTML5 — семантическая разметка
-
-CSS3
-
-Flexbox
-
-Grid
-
-Media Queries
-
-JavaScript (ES6) — интерактив и калькулятор
-
-Git / GitHub Pages — деплой проекта
-
-📱 Адаптивность
+## Адаптивность
 
 Сайт полностью адаптирован под различные устройства:
 
-мобильные телефоны (от 360px)
+- Mobile devices (от 360px)
+- Tablets (768px)
+- Desktop devices (1200px+)
 
-планшеты (768px)
+Макет корректно масштабируется, интерфейс остаётся удобным для взаимодействия на всех типах устройств.
 
-десктопы (1200px+)
+## Цель проекта
 
-Макет корректно масштабируется, элементы интерфейса не ломаются и остаются удобными для взаимодействия.
+- Практика адаптивной вёрстки
+- Работа с коммерческим макетом
+- Создание полноценного landing page для frontend portfolio
+- Улучшение навыков HTML, CSS и JavaScript
 
-🎯 Цель проекта
+## Демо
 
-Практика адаптивной вёрстки
+https://ivan-lyakh.github.io/lending-Repair-company/
 
-Работа с реальным коммерческим макетом
+# Furniture Repair Landing
 
-Создание полноценного лендинга для портфолио frontend-разработчика
+Furniture Repair Landing is a responsive landing page for a company that provides furniture repair and upholstery services.
 
-📁 Структура проекта
-├── index.html
-├── css/
-│   ├── style.css
-│   └── media.css
-├── js/
-│   └── script.js
-└── images/
+The project demonstrates responsive layout skills, UI development, and implementation of JavaScript logic for interactive elements.
 
-🚀 Автор
+## Features
 
-Ivan Lyakh
-Frontend Developer (Junior)
+- Responsive layout (desktop / tablet / mobile)
+- Service cost calculator
+- Contact forms
+- Interactive JavaScript elements
+- FAQ section
+- Company location map
+- Gallery of works and materials
 
-💬 Примечание
+## Tech Stack
 
-Проект не использует сторонние библиотеки и фреймворки. Вся логика реализована на чистом JavaScript.
+- HTML5
+- CSS3
+- Flexbox
+- CSS Grid
+- Media Queries
+- Vanilla JavaScript (ES6)
+- GitHub Pages
+
+## Responsiveness
+
+The website is fully optimized for different screen sizes:
+
+- Mobile devices (from 360px)
+- Tablets (768px)
+- Desktop devices (1200px+)
+
+The layout scales correctly and remains user-friendly across all devices.
+
+## Project Goal
+
+- Practice responsive web layout
+- Work with a commercial-style design
+- Build a complete landing page for a frontend portfolio
+- Improve HTML, CSS, and JavaScript skills
+
+## Live Demo
+
+https://ivan-lyakh.github.io/lending-Repair-company/
